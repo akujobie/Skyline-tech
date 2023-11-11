@@ -1,0 +1,50 @@
+table, th, td{
+    /* border: 2px solid; */
+    border-collapse: collapse;
+    border-bottom: 1px solid;
+    /* width: 80% ; */
+}
+caption{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: chocolate;
+}
+th{
+    color: whitesmoke;
+    font-size: larger;
+}
+table{
+    width: 90%;
+    font-size: 20px; 
+}
+.container{
+    background-color: gainsboro;
+}
+thead{
+    background-color: dodgerblue;
+}
+th, td{
+padding: 30px;
+}
+.fa-square-check{
+    color: rgb(53, 211, 5);
+} 
+.fa-xmark{
+    color: red;
+}
+#Good{
+    background-color:  rgb(53, 211, 5);
+    color:  gainsboro ;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: rgb(53, 211, 5) ;
+}
+#Fail{
+    background-color:  red;
+    color:  gainsboro ;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: red ;
+}
+tr:hover{
+    background-color: darkgray;
+}
