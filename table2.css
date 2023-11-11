@@ -1,0 +1,40 @@
+table, th, td{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: darkgray;
+    /* width: 80% ; */
+}
+caption{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 40px;
+        color: black;
+}
+th{
+    color: whitesmoke;
+    font-size: larger;
+}
+table{
+    width: 90%;
+    font-size: 20px; 
+}
+.container{
+    background-color: gainsboro;
+}
+thead{
+    background-color: dodgerblue;
+}
+th, td{
+padding: 30px;
+}
+tr:nth-child(even){
+background-color: white;
+}
+#Approved{
+    background-color:  gainsboro;
+    font-size: 18px;
+    border-radius: 5px;
+   
+}
+
+tr:hover{
+    background-color: darkgray;
+}
